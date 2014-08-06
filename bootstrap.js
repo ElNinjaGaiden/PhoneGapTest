@@ -638,6 +638,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "PhoneGapTest.controller.DeviceInfo": [],
+  "PhoneGapTest.view.DeviceInfo": [],
   "PhoneGapTest.view.Main": []
 });
 Ext.ClassManager.addNameAliasMappings({
@@ -1357,6 +1359,11 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "PhoneGapTest.controller.DeviceInfo": [],
+  "PhoneGapTest.view.DeviceInfo": [
+    "deviceInfo",
+    "widget.deviceInfo"
+  ],
   "PhoneGapTest.view.Main": [
     "widget.main"
   ]

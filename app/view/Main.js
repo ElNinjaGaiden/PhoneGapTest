@@ -3,7 +3,7 @@ Ext.define('PhoneGapTest.view.Main', {
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
-        'Ext.Video'
+        'PhoneGapTest.view.DeviceInfo'
     ],
     config: {
         tabBarPosition: 'bottom',
@@ -12,6 +12,7 @@ Ext.define('PhoneGapTest.view.Main', {
             {
                 title: 'Welcome',
                 iconCls: 'home',
+                xtype: 'deviceInfo',
 
                 styleHtmlContent: true,
                 scrollable: true,

@@ -40,6 +40,7 @@ C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\index.html \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\js \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\phonegap.js \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\res \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\spec \
@@ -47,6 +48,9 @@ C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\css\index.css \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\img\logo.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\js\index.js \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\res\icon \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\res\screen \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\res\icon\android \
