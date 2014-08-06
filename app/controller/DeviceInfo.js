@@ -1,5 +1,8 @@
 Ext.define('PhoneGapTest.controller.DeviceInfo', {
     extend: 'Ext.app.Controller',
+    requires: [
+        'Ext.device.Device'
+    ],
     
     config: {
         refs: {
@@ -13,12 +16,26 @@ Ext.define('PhoneGapTest.controller.DeviceInfo', {
     },
 
     InitDeviceInfo: function (view) {
-        var html = [
-            'Device name: ' + window.device.name,
-            'Device platform: ' + window.device.platform,
-            'Device UUID: ' + window.device.uuid
-        ].join('\n');
+        if (Ext.device.Device) {
+            var store = view.getStore();
+            if (store) {
+                var data = [
+                    {
+                        Property: 'Platform',
+                        Value: Ext.device.Device.platform
+                    },
+                    {
+                        Property: 'Name',
+                        Value: Ext.device.Device.name
+                    },
+                    {
+                        Property: 'UUID',
+                        Value: Ext.device.Device.uuid
+                    }
+                ];
 
-        view.setHtml(html);
+                store.add(data);
+            }
+        }
     }
 });
