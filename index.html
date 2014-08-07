@@ -1,51 +1,128 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html manifest="" lang="en-US">
 <head>
     <meta charset="UTF-8">
     <title>PhoneGapTest</title>
     <style type="text/css">
-         /**
-         * Example of an initial loading indicator.
-         * It is recommended to keep this as minimal as possible to provide instant feedback
-         * while other resources are still being loaded for the first time
-         */
-        html, body {
-            height: 100%;
-            background-color: #1985D0
-        }
-
-        #appLoadingIndicator {
+        section {
             position: absolute;
             top: 50%;
-            margin-top: -15px;
+            margin-top: -60px;
             text-align: center;
             width: 100%;
-            height: 30px;
-            -webkit-animation-name: appLoadingIndicator;
-            -webkit-animation-duration: 0.5s;
-            -webkit-animation-iteration-count: infinite;
-            -webkit-animation-direction: linear;
         }
 
-        #appLoadingIndicator > * {
-            background-color: #FFFFFF;
-            display: inline-block;
-            height: 30px;
-            -webkit-border-radius: 15px;
-            margin: 0 5px;
-            width: 30px;
-            opacity: 0.8;
+            section:last-child {
+                margin-bottom: 0;
+            }
+
+        .spinner {
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
         }
 
-        @-webkit-keyframes appLoadingIndicator{
-            0% {
-                opacity: 0.8
+        .spinner-2 {
+            height: 100px;
+        }
+
+            .spinner-2 .spinner {
+                width: 100px;
+                height: 100px;
             }
-            50% {
-                opacity: 0
+
+                .spinner-2 .spinner:before {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    border-top: solid 20px #323232;
+                    border-bottom: solid 20px #323232;
+                    border-left: solid 20px transparent;
+                    border-right: solid 20px transparent;
+                    content: "";
+                    -webkit-border-radius: 50px;
+                    -moz-border-radius: 50px;
+                    -ms-border-radius: 50px;
+                    -o-border-radius: 50px;
+                    border-radius: 50px;
+                    -webkit-animation: spinner-2 1s infinite ease;
+                    -moz-animation: spinner-2 1s infinite ease;
+                    -ms-animation: spinner-2 1s infinite ease;
+                    -o-animation: spinner-2 1s infinite ease;
+                    animation: spinner-2 1s infinite ease;
+                }
+
+                .spinner-2 .spinner:after {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    margin: auto;
+                    width: 40px;
+                    height: 40px;
+                    background-color: lightblue;
+                    content: "";
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                    border-radius: 20px;
+                }
+
+        @-webkit-keyframes spinner-2 {
+            from {
+                -webkit-transform: rotate(0deg);
             }
-            100% {
-                opacity: 0.8
+
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @-moz-keyframes spinner-2 {
+            from {
+                -moz-transform: rotate(0deg);
+            }
+
+            to {
+                -moz-transform: rotate(360deg);
+            }
+        }
+
+        @-ms-keyframes spinner-2 {
+            from {
+                -ms-transform: rotate(0deg);
+            }
+
+            to {
+                -ms-transform: rotate(360deg);
+            }
+        }
+
+        @-o-keyframes spinner-2 {
+            from {
+                -o-transform: rotate(0deg);
+            }
+
+            to {
+                -o-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spinner-2 {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
             }
         }
     </style>
@@ -53,10 +130,9 @@
     <script id="microloader" type="text/javascript" src=".sencha/app/microloader/development.js"></script>
 </head>
 <body>
-    <div id="appLoadingIndicator">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+    <section class="spinner-2" id="appLoadingIndicator">
+        <div class="spinner">
+        </div>
+    </section>
 </body>
 </html>
