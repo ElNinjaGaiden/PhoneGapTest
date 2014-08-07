@@ -638,12 +638,15 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "PhoneGapTest.controller.Connection": [],
   "PhoneGapTest.controller.DeviceInfo": [],
   "PhoneGapTest.controller.Notifications": [],
-  "PhoneGapTest.model.DeviceData": [],
+  "PhoneGapTest.model.DeviceProperty": [],
+  "PhoneGapTest.view.Connection": [],
   "PhoneGapTest.view.DeviceInfo": [],
   "PhoneGapTest.view.Main": [],
-  "PhoneGapTest.view.Notifications": []
+  "PhoneGapTest.view.Notifications": [],
+  "PhoneGapTest.view.PropertiesList": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1362,9 +1365,14 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "PhoneGapTest.controller.Connection": [],
   "PhoneGapTest.controller.DeviceInfo": [],
   "PhoneGapTest.controller.Notifications": [],
-  "PhoneGapTest.model.DeviceData": [],
+  "PhoneGapTest.model.DeviceProperty": [],
+  "PhoneGapTest.view.Connection": [
+    "connection",
+    "widget.connection"
+  ],
   "PhoneGapTest.view.DeviceInfo": [
     "deviceInfo",
     "widget.deviceInfo"
@@ -1375,5 +1383,8 @@ Ext.ClassManager.addNameAliasMappings({
   "PhoneGapTest.view.Notifications": [
     "notifications",
     "widget.notifications"
+  ],
+  "PhoneGapTest.view.PropertiesList": [
+    "widget.propertiesList"
   ]
 });

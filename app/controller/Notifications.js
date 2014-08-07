@@ -23,7 +23,7 @@ Ext.define('PhoneGapTest.controller.Notifications', {
     Notify: function (button) {
         if (navigator.notification && typeof navigator.notification.alert === 'function') {
             var data = button.up('formpanel').getValues();
-            navigator.notification.alert(data.Message, data.Title, 'Done');
+            navigator.notification.alert(data.Message, Ext.emtpyFn, data.Title, 'Go away');
         }
         else {
             Ext.Msg.alert('Fail!', 'Feature does not supported!', Ext.emtpyFn);

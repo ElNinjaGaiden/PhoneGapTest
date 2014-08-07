@@ -1,4 +1,4 @@
-Ext.define('PhoneGapTest.model.DeviceData', {
+Ext.define('PhoneGapTest.model.DeviceProperty', {
     extend: 'Ext.data.Model',
     
     config: {

@@ -25,5 +25,7 @@ C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\ant-bu
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification$5$1.class \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification$5.class \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification.class \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager$1.class \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager.class \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\ant-build\classes\org\apache\cordova\vibration\Vibration.class \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\ant-build\dexedLibs\classes-8b672c8613900c3df8e3c298a9648ebe.jar \

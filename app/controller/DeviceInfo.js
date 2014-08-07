@@ -16,26 +16,15 @@ Ext.define('PhoneGapTest.controller.DeviceInfo', {
     },
 
     InitDeviceInfo: function (view) {
-        if (Ext.device.Device) {
-            var store = view.getStore();
-            if (store) {
-                var data = [
-                    {
-                        Property: 'Platform',
-                        Value: Ext.device.Device.platform
-                    },
-                    {
-                        Property: 'Name',
-                        Value: Ext.device.Device.name
-                    },
-                    {
-                        Property: 'UUID',
-                        Value: Ext.device.Device.uuid
-                    }
-                ];
+        var data = [];
+        var store = view.getStore();
 
-                store.add(data);
-            }
+        if (Ext.device.Device) {
+            data.push({ Property: 'Platform', Value: Ext.device.Device.platform });
+            data.push({ Property: 'Name', Value: Ext.device.Device.name });
+            data.push({ Property: 'UUID', Value: Ext.device.Device.uuid });
         }
+
+        store.add(data);
     }
 });
