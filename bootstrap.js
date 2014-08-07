@@ -639,9 +639,11 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.viewport.WP"
   ],
   "PhoneGapTest.controller.DeviceInfo": [],
+  "PhoneGapTest.controller.Notifications": [],
   "PhoneGapTest.model.DeviceData": [],
   "PhoneGapTest.view.DeviceInfo": [],
-  "PhoneGapTest.view.Main": []
+  "PhoneGapTest.view.Main": [],
+  "PhoneGapTest.view.Notifications": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1361,6 +1363,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
   "PhoneGapTest.controller.DeviceInfo": [],
+  "PhoneGapTest.controller.Notifications": [],
   "PhoneGapTest.model.DeviceData": [],
   "PhoneGapTest.view.DeviceInfo": [
     "deviceInfo",
@@ -1368,5 +1371,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "PhoneGapTest.view.Main": [
     "widget.main"
+  ],
+  "PhoneGapTest.view.Notifications": [
+    "notifications",
+    "widget.notifications"
   ]
 });

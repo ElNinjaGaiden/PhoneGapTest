@@ -49,8 +49,16 @@ C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\img\logo.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\js\index.js \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.dialogs \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.vibration \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\android \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\notification.js \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\android\notification.js \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.vibration\www \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.vibration\www\vibration.js \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\res\icon \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\res\screen \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\res\icon\android \

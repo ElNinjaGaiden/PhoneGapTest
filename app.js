@@ -22,7 +22,8 @@ Ext.application({
     ],
 
     controllers: [
-        'DeviceInfo'
+        'DeviceInfo',
+        'Notifications'
     ],
 
     icon: {
