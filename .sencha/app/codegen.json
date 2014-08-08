@@ -328,6 +328,40 @@
         "controllerNamespace": "PhoneGapTest.controller",
         "controllerFileName": "Connection"
       }
+    },
+    "app/controller/help.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "7cd8d1cf12515ca525732931d6b775e3f7924ad9",
+      "parameters": {
+        "appName": "PhoneGapTest",
+        "controllerName": "help",
+        "name": "help",
+        "controllerNamespace": "PhoneGapTest.controller",
+        "controllerFileName": "help"
+      }
+    },
+    "app/model/Person.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "b440abe61f1cfb3bbc31c9554696b4c7e9e2c329",
+      "parameters": {
+        "appName": "PhoneGapTest",
+        "name": "Person",
+        "baseClass": "Ext.data.Model",
+        "modelNamespace": "PhoneGapTest.model",
+        "fields": "Id:integer:null,FirstName:string:null,LastName:string:null,AddedOn:date:null",
+        "modelFileName": "Person"
+      }
+    },
+    "app/controller/sqlite/PersonsList.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "7cd8d1cf12515ca525732931d6b775e3f7924ad9",
+      "parameters": {
+        "appName": "PhoneGapTest",
+        "controllerName": "sqlite.PersonsList",
+        "name": "sqlite.PersonsList",
+        "controllerNamespace": "PhoneGapTest.controller",
+        "controllerFileName": "sqlite/PersonsList"
+      }
     }
   }
 }

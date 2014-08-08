@@ -24,7 +24,8 @@ Ext.application({
     controllers: [
         'device.DeviceInfo',
         'notifications.Notifications',
-        'connection.Connection'
+        'connection.Connection',
+        'sqlite.PersonsList'
     ],
 
     icon: {

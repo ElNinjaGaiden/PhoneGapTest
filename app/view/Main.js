@@ -4,7 +4,8 @@ Ext.define('PhoneGapTest.view.Main', {
     requires: [
         'PhoneGapTest.view.device.DeviceInfo',
         'PhoneGapTest.view.notifications.Notifications',
-        'PhoneGapTest.view.connection.Connection'
+        'PhoneGapTest.view.connection.Connection',
+        'PhoneGapTest.view.sqlite.PersonsList'
     ],
     config: {
         tabBarPosition: 'bottom',
@@ -18,6 +19,9 @@ Ext.define('PhoneGapTest.view.Main', {
             },
             {
                 xtype: 'connection'
+            },
+            {
+                xtype: 'personsList'
             }
         ]
     }
