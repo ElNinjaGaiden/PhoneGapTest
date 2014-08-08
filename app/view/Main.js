@@ -2,9 +2,9 @@ Ext.define('PhoneGapTest.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
     requires: [
-        'PhoneGapTest.view.DeviceInfo',
-        'PhoneGapTest.view.Notifications',
-        'PhoneGapTest.view.Connection'
+        'PhoneGapTest.view.device.DeviceInfo',
+        'PhoneGapTest.view.notifications.Notifications',
+        'PhoneGapTest.view.connection.Connection'
     ],
     config: {
         tabBarPosition: 'bottom',

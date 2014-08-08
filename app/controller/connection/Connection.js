@@ -1,4 +1,4 @@
-Ext.define('PhoneGapTest.controller.Connection', {
+Ext.define('PhoneGapTest.controller.connection.Connection', {
     extend: 'Ext.app.Controller',
     requires: [
         'Ext.device.Connection'

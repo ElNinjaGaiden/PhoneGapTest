@@ -1,4 +1,4 @@
-﻿Ext.define('PhoneGapTest.view.Notifications', {
+﻿Ext.define('PhoneGapTest.view.notifications.Notifications', {
     extend: 'Ext.form.Panel',
     xtype: 'notifications',
     alias: 'notifications',

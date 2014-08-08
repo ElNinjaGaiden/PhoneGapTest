@@ -1,5 +1,5 @@
-﻿Ext.define('PhoneGapTest.view.Connection', {
-    extend: 'PhoneGapTest.view.PropertiesList',
+﻿Ext.define('PhoneGapTest.view.connection.Connection', {
+    extend: 'PhoneGapTest.view.common.PropertiesList',
     xtype: 'connection',
     alias: 'connection',
 

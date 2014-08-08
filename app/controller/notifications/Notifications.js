@@ -1,4 +1,4 @@
-Ext.define('PhoneGapTest.controller.Notifications', {
+Ext.define('PhoneGapTest.controller.notifications.Notifications', {
     extend: 'Ext.app.Controller',
     
     config: {

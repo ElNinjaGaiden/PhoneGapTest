@@ -1,4 +1,4 @@
-﻿Ext.define('PhoneGapTest.view.PropertiesList', {
+﻿Ext.define('PhoneGapTest.view.common.PropertiesList', {
     extend: 'Ext.List',
     xtype: 'propertiesList',
     requires: [

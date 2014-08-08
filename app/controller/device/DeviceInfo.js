@@ -1,4 +1,4 @@
-Ext.define('PhoneGapTest.controller.DeviceInfo', {
+Ext.define('PhoneGapTest.controller.device.DeviceInfo', {
     extend: 'Ext.app.Controller',
     requires: [
         'Ext.device.Device'

@@ -1,5 +1,5 @@
-﻿Ext.define('PhoneGapTest.view.DeviceInfo', {
-    extend: 'PhoneGapTest.view.PropertiesList',
+﻿Ext.define('PhoneGapTest.view.device.DeviceInfo', {
+    extend: 'PhoneGapTest.view.common.PropertiesList',
     xtype: 'deviceInfo',
     alias: 'deviceInfo',
 
