@@ -129,6 +129,7 @@ C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\res\screen\windows-phone\screen-portrait.jpg \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\css \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\icons \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\scripts \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\startup \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\css\app.css \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\icons\icon-spot~ipad.png \
@@ -139,6 +140,7 @@ C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\icons\Icon~ipad.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\icons\Icon~ipad@2x.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\icons\iTunesArtwork.png \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\scripts\AppScope.js \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\startup\1496x2048.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\startup\1536x2008.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\startup\320x460.jpg \
