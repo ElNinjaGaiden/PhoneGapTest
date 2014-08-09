@@ -57,8 +57,11 @@
             "update": "delta"
         },
         {
-            "path":  "resources/scripts/AppScope.js",
+            "path":  "resources/scripts/classes/AppScope.js",
             "update": "delta"
+        },
+        {
+            "path":  "resources/scripts/Global.js"
         }
     ],
 

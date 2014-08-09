@@ -141,6 +141,9 @@ C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\icons\Icon~ipad@2x.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\icons\iTunesArtwork.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\scripts\AppScope.js \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\scripts\classes \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\scripts\Global.js \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\scripts\classes\AppScope.js \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\startup\1496x2048.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\startup\1536x2008.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\resources\startup\320x460.jpg \

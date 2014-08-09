@@ -10,9 +10,6 @@
     will need to resolve manually.
 */
 
-//Application scope object
-var AppScope = undefined;
-
 Ext.application({
     name: 'PhoneGapTest',
 
@@ -58,9 +55,6 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
-
-        //Create the app scope object
-        AppScope = new AppScope();
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('PhoneGapTest.view.Main'));
