@@ -48,10 +48,13 @@ C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\css\index.css \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\img\logo.png \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\js\index.js \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\com.phonegap.plugins.sqlite \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.dialogs \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.network-information \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.vibration \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\com.phonegap.plugins.sqlite\www \
+C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\com.phonegap.plugins.sqlite\www\SQLitePlugin.js \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
 C:\Users\dgarcia\Documents\GitHub\PhoneGapTest\phonegap\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www \

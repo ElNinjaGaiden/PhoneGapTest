@@ -25,7 +25,13 @@ Ext.application({
         'device.DeviceInfo',
         'notifications.Notifications',
         'connection.Connection',
-        'sqlite.PersonsList'
+        'sqlite.PersonsNavigator',
+        'sqlite.PersonsList',
+        'sqlite.PersonEditor'
+    ],
+
+    stores: [
+        'Persons'
     ],
 
     icon: {

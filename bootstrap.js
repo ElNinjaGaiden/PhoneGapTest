@@ -638,15 +638,24 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "PhoneGapTest.controller.Connection": [],
-  "PhoneGapTest.controller.DeviceInfo": [],
-  "PhoneGapTest.controller.Notifications": [],
+  "PhoneGapTest.controller.connection.Connection": [],
+  "PhoneGapTest.controller.device.DeviceInfo": [],
+  "PhoneGapTest.controller.notifications.Notifications": [],
+  "PhoneGapTest.controller.sqlite.PersonEditor": [],
+  "PhoneGapTest.controller.sqlite.PersonsList": [],
+  "PhoneGapTest.controller.sqlite.PersonsNavigator": [],
   "PhoneGapTest.model.DeviceProperty": [],
-  "PhoneGapTest.view.Connection": [],
-  "PhoneGapTest.view.DeviceInfo": [],
+  "PhoneGapTest.model.Person": [],
+  "PhoneGapTest.store.Persons": [],
+  "PhoneGapTest.view.Dummy": [],
   "PhoneGapTest.view.Main": [],
-  "PhoneGapTest.view.Notifications": [],
-  "PhoneGapTest.view.PropertiesList": []
+  "PhoneGapTest.view.common.PropertiesList": [],
+  "PhoneGapTest.view.connection.Connection": [],
+  "PhoneGapTest.view.device.DeviceInfo": [],
+  "PhoneGapTest.view.notifications.Notifications": [],
+  "PhoneGapTest.view.sqlite.PersonEditor": [],
+  "PhoneGapTest.view.sqlite.PersonsList": [],
+  "PhoneGapTest.view.sqlite.PersonsNavigator": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1365,26 +1374,47 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "PhoneGapTest.controller.Connection": [],
-  "PhoneGapTest.controller.DeviceInfo": [],
-  "PhoneGapTest.controller.Notifications": [],
+  "PhoneGapTest.controller.connection.Connection": [],
+  "PhoneGapTest.controller.device.DeviceInfo": [],
+  "PhoneGapTest.controller.notifications.Notifications": [],
+  "PhoneGapTest.controller.sqlite.PersonEditor": [],
+  "PhoneGapTest.controller.sqlite.PersonsList": [],
+  "PhoneGapTest.controller.sqlite.PersonsNavigator": [],
   "PhoneGapTest.model.DeviceProperty": [],
-  "PhoneGapTest.view.Connection": [
-    "connection",
-    "widget.connection"
-  ],
-  "PhoneGapTest.view.DeviceInfo": [
-    "deviceInfo",
-    "widget.deviceInfo"
+  "PhoneGapTest.model.Person": [],
+  "PhoneGapTest.store.Persons": [],
+  "PhoneGapTest.view.Dummy": [
+    "dummy",
+    "widget.dummy"
   ],
   "PhoneGapTest.view.Main": [
     "widget.main"
   ],
-  "PhoneGapTest.view.Notifications": [
+  "PhoneGapTest.view.common.PropertiesList": [
+    "widget.propertiesList"
+  ],
+  "PhoneGapTest.view.connection.Connection": [
+    "connection",
+    "widget.connection"
+  ],
+  "PhoneGapTest.view.device.DeviceInfo": [
+    "deviceInfo",
+    "widget.deviceInfo"
+  ],
+  "PhoneGapTest.view.notifications.Notifications": [
     "notifications",
     "widget.notifications"
   ],
-  "PhoneGapTest.view.PropertiesList": [
-    "widget.propertiesList"
+  "PhoneGapTest.view.sqlite.PersonEditor": [
+    "personEditor",
+    "widget.personEditor"
+  ],
+  "PhoneGapTest.view.sqlite.PersonsList": [
+    "personsList",
+    "widget.personsList"
+  ],
+  "PhoneGapTest.view.sqlite.PersonsNavigator": [
+    "personsNavigator",
+    "widget.personsNavigator"
   ]
 });
