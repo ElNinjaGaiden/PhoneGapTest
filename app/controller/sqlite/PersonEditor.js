@@ -22,12 +22,11 @@ Ext.define('PhoneGapTest.controller.sqlite.PersonEditor', {
             if (form) {
                 var data = form.getValues();
                 if (data.FirstName && data.LastName) {
-                    var navigator = form.up('navigationview');
                     var db = AppScope.GetDb();
                     db.transaction(function (tx) {
                         var parameters = [data.FirstName, data.LastName, new Date()];
                         tx.executeSql("INSERT INTO Persons (FirstName, LastName, AddedOn) VALUES (?,?,?)", parameters,
-                                      function (tx, res) { controller.PersonAdded(tx, res, form, navigator); },
+                                      function (tx, res) { controller.PersonAdded(tx, res, form); },
                                       function (e) { });
                     });
                     
@@ -36,11 +35,12 @@ Ext.define('PhoneGapTest.controller.sqlite.PersonEditor', {
         }
     },
 
-    PersonAdded: function (tx, res, form, navigator) {
+    PersonAdded: function (tx, res, form) {
         tx.executeSql('SELECT Id, FirstName, LastName, AddedOn FROM Persons WHERE Id=?;', [res.insertId], function (tx, res) {
             if (res.rows.length > 0) {
                 var personsStore = Ext.getStore('Persons');
                 personsStore.add(res.rows.item(0));
+                var navigator = form.up('navigationview');
                 navigator.pop();
             }
         });
