@@ -27,7 +27,9 @@ Ext.application({
         'connection.Connection',
         'sqlite.PersonsNavigator',
         'sqlite.PersonsList',
-        'sqlite.PersonEditor'
+        'sqlite.PersonEditor',
+        'phonecall.PhoneCall',
+        'email.Email'
     ],
 
     stores: [

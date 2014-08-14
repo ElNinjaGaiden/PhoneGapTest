@@ -640,7 +640,9 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "PhoneGapTest.controller.connection.Connection": [],
   "PhoneGapTest.controller.device.DeviceInfo": [],
+  "PhoneGapTest.controller.email.Email": [],
   "PhoneGapTest.controller.notifications.Notifications": [],
+  "PhoneGapTest.controller.phonecall.PhoneCall": [],
   "PhoneGapTest.controller.sqlite.PersonEditor": [],
   "PhoneGapTest.controller.sqlite.PersonsList": [],
   "PhoneGapTest.controller.sqlite.PersonsNavigator": [],
@@ -652,7 +654,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "PhoneGapTest.view.common.PropertiesList": [],
   "PhoneGapTest.view.connection.Connection": [],
   "PhoneGapTest.view.device.DeviceInfo": [],
+  "PhoneGapTest.view.email.Email": [],
   "PhoneGapTest.view.notifications.Notifications": [],
+  "PhoneGapTest.view.phonecall.PhoneCall": [],
   "PhoneGapTest.view.sqlite.PersonEditor": [],
   "PhoneGapTest.view.sqlite.PersonsList": [],
   "PhoneGapTest.view.sqlite.PersonsNavigator": []
@@ -1376,7 +1380,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.WindowsPhone": [],
   "PhoneGapTest.controller.connection.Connection": [],
   "PhoneGapTest.controller.device.DeviceInfo": [],
+  "PhoneGapTest.controller.email.Email": [],
   "PhoneGapTest.controller.notifications.Notifications": [],
+  "PhoneGapTest.controller.phonecall.PhoneCall": [],
   "PhoneGapTest.controller.sqlite.PersonEditor": [],
   "PhoneGapTest.controller.sqlite.PersonsList": [],
   "PhoneGapTest.controller.sqlite.PersonsNavigator": [],
@@ -1401,9 +1407,17 @@ Ext.ClassManager.addNameAliasMappings({
     "deviceInfo",
     "widget.deviceInfo"
   ],
+  "PhoneGapTest.view.email.Email": [
+    "email",
+    "widget.email"
+  ],
   "PhoneGapTest.view.notifications.Notifications": [
     "notifications",
     "widget.notifications"
+  ],
+  "PhoneGapTest.view.phonecall.PhoneCall": [
+    "phonecall",
+    "widget.phonecall"
   ],
   "PhoneGapTest.view.sqlite.PersonEditor": [
     "personEditor",

@@ -384,6 +384,28 @@
         "controllerNamespace": "PhoneGapTest.controller",
         "controllerFileName": "sqlite/PersonEditor"
       }
+    },
+    "app/controller/phonecall/PhoneCall.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "7cd8d1cf12515ca525732931d6b775e3f7924ad9",
+      "parameters": {
+        "appName": "PhoneGapTest",
+        "controllerName": "phonecall.PhoneCall",
+        "name": "phonecall.PhoneCall",
+        "controllerNamespace": "PhoneGapTest.controller",
+        "controllerFileName": "phonecall/PhoneCall"
+      }
+    },
+    "app/controller/email/Email.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "7cd8d1cf12515ca525732931d6b775e3f7924ad9",
+      "parameters": {
+        "appName": "PhoneGapTest",
+        "controllerName": "email.Email",
+        "name": "email.Email",
+        "controllerNamespace": "PhoneGapTest.controller",
+        "controllerFileName": "email/Email"
+      }
     }
   }
 }
