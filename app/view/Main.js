@@ -6,6 +6,7 @@ Ext.define('PhoneGapTest.view.Main', {
         'PhoneGapTest.view.notifications.Notifications',
         'PhoneGapTest.view.connection.Connection',
         'PhoneGapTest.view.sqlite.PersonsNavigator',
+        'PhoneGapTest.view.sqlite.ArtistsList',
         'PhoneGapTest.view.phonecall.PhoneCall',
         'PhoneGapTest.view.email.Email'
     ],
@@ -24,6 +25,9 @@ Ext.define('PhoneGapTest.view.Main', {
             },
             {
                 xtype: 'personsNavigator'
+            },
+            {
+                xtype: 'artistsList'
             },
             {
                 xtype: 'phonecall'

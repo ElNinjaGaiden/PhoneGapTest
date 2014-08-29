@@ -27,13 +27,15 @@ Ext.application({
         'connection.Connection',
         'sqlite.PersonsNavigator',
         'sqlite.PersonsList',
+        'sqlite.ArtistsList',
         'sqlite.PersonEditor',
         'phonecall.PhoneCall',
         'email.Email'
     ],
 
     stores: [
-        'Persons'
+        'Persons',
+        'Artists'
     ],
 
     icon: {
