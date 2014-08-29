@@ -18,7 +18,8 @@
     Init: function (view) {
         if (window.sqlitePlugin) {
             try {
-                var db = window.sqlitePlugin.openDatabase("0000000000000001.db", "1.0", "PhoneGap Demo", 200000); //{ name: "Chinook.db" }
+                //"Chinook.db", "1.0", "PhoneGap Demo", 200000
+                var db = window.sqlitePlugin.openDatabase({ name: "Chinook.db" });
                 db.executeSql("SELECT ArtistId, Name FROM Artist;", [], function (res) {
                     var artistsStore = Ext.getStore('Artists');
                     for (var index = 0; index < res.rows.length; index++) {
